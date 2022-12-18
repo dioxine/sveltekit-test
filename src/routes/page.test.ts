@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest';
 import { render } from '@testing-library/svelte';
 import Page from 'src/routes/+page.svelte';
 
-// @vitest-environment happy-dom
+// @vitest-environment jsdom
 
 describe('testing case', () => {
 	it('shold be true', () => {

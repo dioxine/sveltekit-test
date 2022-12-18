@@ -1,6 +1,6 @@
 <script lang="ts">
 	export const testTests = () => {
-		return false;
+		return true;
 	};
 </script>
 
